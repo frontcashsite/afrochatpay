@@ -1,0 +1,19 @@
+{
+  "name": "Click Pesa Uganda",
+  "short_name": "Click Pesa",
+  "description": "Earn money online with verified tasks. Instant MTN Mobile Money payouts.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08080E",
+  "theme_color": "#5B4FE8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"]
+}
