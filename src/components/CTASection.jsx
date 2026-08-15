@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import FadeIn from './FadeIn'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 export default function CTASection() {
   return (
@@ -12,7 +12,7 @@ export default function CTASection() {
             Ready to start earning in Uganda?
           </h2>
           <p className="text-[17px] text-gray-400 leading-relaxed mb-8">
-            Join 50,000 earners already using Click Pesa. Registration takes under two minutes and your first task is waiting. Payouts straight to MTN or Airtel Money.
+            Join 50,000 earners already using AfroChatPay. Registration takes under two minutes and your first task is waiting. Payouts straight to MTN or Airtel Money.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <a

@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import FadeIn from './FadeIn'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const tasks = [
   {

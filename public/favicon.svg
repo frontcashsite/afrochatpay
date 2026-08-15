@@ -7,12 +7,12 @@
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#g)"/>
   <text
-    x="32" y="43"
+    x="32" y="41"
     text-anchor="middle"
     font-family="'Inter','Arial',sans-serif"
     font-weight="800"
-    font-size="26"
+    font-size="20"
     letter-spacing="-1"
     fill="white"
-  >CP</text>
+  >ACP</text>
 </svg>

@@ -1,7 +1,7 @@
 import { CheckCircle, ArrowRight } from 'lucide-react'
 import FadeIn from './FadeIn'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const earnTypes = [
   { name: 'Chat Sessions',           rate: 'UGX 20,000 / hr',          desc: 'Engage in moderated conversations with verified clients' },

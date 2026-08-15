@@ -14,12 +14,12 @@ export default function WhyUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
 
           <FadeIn>
-            <span className="section-label">Why Click Pesa</span>
+            <span className="section-label">Why AfroChatPay</span>
             <h2 className="section-heading mb-5">
               Reliability isn't a feature.<br />It's the baseline.
             </h2>
             <p className="text-[17px] text-gray-400 leading-relaxed mb-5">
-              Most earning platforms are slow to pay, vague about rates, or inconsistent in task supply. Click Pesa is designed to be the opposite — predictable, transparent, and honest about what's possible.
+              Most earning platforms are slow to pay, vague about rates, or inconsistent in task supply. AfroChatPay is designed to be the opposite — predictable, transparent, and honest about what's possible.
             </p>
             <p className="text-[15px] text-gray-500 leading-relaxed">
               We verify every task source, process payments at the moment of approval, and give you a complete audit trail of every transaction in your account.

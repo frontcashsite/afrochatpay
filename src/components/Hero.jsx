@@ -1,6 +1,6 @@
 import { ArrowRight, Shield, Zap, Users, MessageSquare, Play, CheckSquare, TrendingUp } from 'lucide-react'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const recentActivity = [
   { Icon: MessageSquare, label: 'Chat session completed', sub: '2 minutes ago',  amount: '+UGX 20,000', bg: 'bg-[#5B4FE8]/20',   color: 'text-[#7C6FF7]' },
@@ -98,7 +98,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-[17px] text-gray-400 leading-relaxed mb-8 max-w-lg">
-              Click Pesa connects you with verified online tasks — chat, watch videos, answer surveys — and pays directly to your MTN or Airtel Money wallet.
+              AfroChatPay connects you with verified online tasks — chat, watch videos, answer surveys — and pays directly to your MTN or Airtel Money wallet.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 mb-9">

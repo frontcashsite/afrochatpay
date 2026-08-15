@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const links = [
   { label: 'How It Works', href: '#how-it-works' },
@@ -31,10 +31,10 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
             <div className="w-7 h-7 bg-[#5B4FE8] rounded-[6px] flex items-center justify-center">
-              <span className="text-white text-[10px] font-bold tracking-tight">CP</span>
+              <span className="text-white text-[9px] font-bold tracking-tight">ACP</span>
             </div>
             <span className="text-[15px] font-semibold text-white tracking-tight">
-              Click<span className="text-[#7C6FF7]">Pesa</span>
+              Afro<span className="text-[#7C6FF7]">ChatPay</span>
             </span>
           </a>
 

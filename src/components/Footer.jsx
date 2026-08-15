@@ -1,4 +1,4 @@
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const cols = {
   Product: [
@@ -36,10 +36,10 @@ export default function Footer() {
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-6 h-6 bg-[#5B4FE8] rounded-md flex items-center justify-center">
-                <span className="text-white text-[10px] font-bold">CP</span>
+                <span className="text-white text-[8px] font-bold">ACP</span>
               </div>
               <span className="text-[14px] font-semibold text-white tracking-tight">
-                Click<span className="text-[#7C6FF7]">Pesa</span>
+                Afro<span className="text-[#7C6FF7]">ChatPay</span>
               </span>
             </div>
             <p className="text-[13px] text-gray-500 leading-relaxed max-w-[220px]">
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/[0.06] pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-          <p className="text-[12px] text-gray-600">© {new Date().getFullYear()} Click Pesa. All rights reserved.</p>
+          <p className="text-[12px] text-gray-600">© {new Date().getFullYear()} AfroChatPay. All rights reserved.</p>
           <a
             href="https://wa.me/256726956773"
             target="_blank"

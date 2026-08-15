@@ -16,7 +16,7 @@ const testimonials = [
     earned: 'UGX 126,500 earned',
   },
   {
-    quote: "I've tested other platforms and none deliver like Click Pesa does. Earnings are credited immediately to my MTN wallet. No waiting period, no minimum threshold games.",
+    quote: "I've tested other platforms and none deliver like AfroChatPay does. Earnings are credited immediately to my MTN wallet. No waiting period, no minimum threshold games.",
     name: 'Robert Opiyo',
     role: 'Student, Mbarara',
     img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=face&auto=format&q=75',

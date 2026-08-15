@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 
-const CTA = 'https://mullaprime.com/user/register.php?ref=ClickPesa'
+const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const faqs = [
   {
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'Do I need to download an app?',
-    a: 'No. Click Pesa runs entirely in your browser. It works on any smartphone, tablet, or computer — even on a slow data connection.',
+    a: 'No. AfroChatPay runs entirely in your browser. It works on any smartphone, tablet, or computer — even on a slow data connection.',
   },
   {
     q: 'How does the referral program work?',

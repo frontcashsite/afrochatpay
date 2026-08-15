@@ -25,7 +25,7 @@ const features = [
   {
     Icon: Smartphone,
     title: 'Works on Any Phone',
-    body: 'No app required. Access Click Pesa from any smartphone browser on any connection speed across Uganda.',
+    body: 'No app required. Access AfroChatPay from any smartphone browser on any connection speed across Uganda.',
   },
   {
     Icon: Headphones,
