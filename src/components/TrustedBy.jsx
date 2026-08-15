@@ -11,7 +11,7 @@ const partners = [
 
 export default function TrustedBy() {
   return (
-    <section className="py-10 bg-[#0D0D1A] border-y border-white/[0.08]">
+    <section className="py-10 bg-gray-50 border-y border-gray-200">
       <div className="container-xl">
         <FadeIn>
           <p className="text-center text-[10px] font-semibold text-gray-600 uppercase tracking-[0.15em] mb-7">

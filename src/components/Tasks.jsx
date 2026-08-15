@@ -84,7 +84,7 @@ const tasks = [
 
 export default function Tasks() {
   return (
-    <section className="py-16 lg:py-24 bg-[#08080E]" id="tasks">
+    <section className="py-16 lg:py-24 bg-white" id="tasks">
       <div className="container-xl">
         <FadeIn className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
           <div>
@@ -95,7 +95,7 @@ export default function Tasks() {
             href={CTA}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#7C6FF7] hover:text-white transition-colors flex-shrink-0 min-h-[44px]"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#7C6FF7] hover:text-gray-900 transition-colors flex-shrink-0 min-h-[44px]"
           >
             View all tasks <ArrowRight size={14} />
           </a>
@@ -104,7 +104,7 @@ export default function Tasks() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {tasks.map(({ title, desc, pay, unit, cta, img, badge, badgeCls }, i) => (
             <FadeIn key={title} delay={(i % 4) * 70}>
-              <div className="group flex flex-col h-full rounded-xl border border-white/10 bg-[#111126] overflow-hidden hover:border-[#5B4FE8]/50 hover:shadow-lg hover:shadow-[#5B4FE8]/10 hover:-translate-y-0.5 transition-all duration-200">
+              <div className="group flex flex-col h-full rounded-xl border border-gray-200 bg-white overflow-hidden hover:border-[#5B4FE8]/50 hover:shadow-lg hover:shadow-[#5B4FE8]/10 hover:-translate-y-0.5 transition-all duration-200">
                 <div className="relative overflow-hidden">
                   <img
                     src={img}
@@ -123,11 +123,11 @@ export default function Tasks() {
                 </div>
 
                 <div className="flex flex-col flex-1 p-4">
-                  <h3 className="text-[13px] font-semibold text-white leading-snug mb-1.5">{title}</h3>
+                  <h3 className="text-[13px] font-semibold text-gray-900 leading-snug mb-1.5">{title}</h3>
                   <p className="text-[12px] text-gray-500 leading-relaxed flex-1 mb-3">{desc}</p>
 
                   <div className="flex items-baseline gap-1 mb-4">
-                    <span className="text-[15px] font-bold text-white">{pay}</span>
+                    <span className="text-[15px] font-bold text-gray-900">{pay}</span>
                     <span className="text-[11px] text-gray-500">{unit}</span>
                   </div>
 

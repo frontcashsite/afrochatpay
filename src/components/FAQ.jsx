@@ -37,13 +37,13 @@ const faqs = [
 function Item({ q, a }) {
   const [open, setOpen] = useState(false)
   return (
-    <div className="border-b border-white/[0.08] last:border-0">
+    <div className="border-b border-gray-200 last:border-0">
       <button
         onClick={() => setOpen(v => !v)}
         aria-expanded={open}
         className="w-full flex items-center justify-between py-5 text-left group min-h-[56px]"
       >
-        <span className="text-[14px] font-semibold text-gray-200 pr-6 group-hover:text-white transition-colors">
+        <span className="text-[14px] font-semibold text-gray-700 pr-6 group-hover:text-gray-900 transition-colors">
           {q}
         </span>
         <ChevronDown
@@ -60,17 +60,17 @@ function Item({ q, a }) {
 
 export default function FAQ() {
   return (
-    <section className="py-16 lg:py-24 bg-[#08080E]" id="faq">
+    <section className="py-16 lg:py-24 bg-white" id="faq">
       <div className="container-xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
 
           {/* Left */}
           <div className="lg:col-span-4">
             <span className="section-label">FAQ</span>
-            <h2 className="text-3xl font-bold text-white tracking-tight mb-4">Common questions</h2>
+            <h2 className="text-3xl font-bold text-gray-900 tracking-tight mb-4">Common questions</h2>
             <p className="text-[14px] text-gray-500 leading-relaxed">
               Can't find an answer?{' '}
-              <a href={CTA} target="_blank" rel="noopener noreferrer" className="text-[#7C6FF7] font-medium hover:text-white transition-colors">
+              <a href={CTA} target="_blank" rel="noopener noreferrer" className="text-[#7C6FF7] font-medium hover:text-gray-900 transition-colors">
                 Contact support
               </a>
             </p>

@@ -36,14 +36,14 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-16 lg:py-24 bg-[#0D0D1A]" id="features">
+    <section className="py-16 lg:py-24 bg-gray-50" id="features">
       <div className="container-xl">
         <FadeIn className="max-w-xl mb-12">
           <span className="section-label">Platform features</span>
           <h2 className="section-heading mb-4">
             Built for consistent,<br />reliable earning
           </h2>
-          <p className="text-[17px] text-gray-400 leading-relaxed">
+          <p className="text-[17px] text-gray-600 leading-relaxed">
             Every part of the platform is designed to make earning straightforward — from how tasks are sourced to how payments land in your mobile wallet.
           </p>
         </FadeIn>
@@ -51,11 +51,11 @@ export default function Features() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {features.map(({ Icon, title, body }, i) => (
             <FadeIn key={title} delay={(i % 3) * 80}>
-              <div className="group h-full p-6 rounded-xl border border-white/[0.08] bg-[#111126] hover:border-[#5B4FE8]/40 hover:shadow-md hover:shadow-[#5B4FE8]/10 hover:-translate-y-0.5 transition-all duration-200">
-                <div className="w-9 h-9 bg-white/5 group-hover:bg-[#5B4FE8]/20 rounded-lg flex items-center justify-center mb-4 transition-colors duration-200">
-                  <Icon size={16} className="text-gray-400 group-hover:text-[#7C6FF7] transition-colors duration-200" />
+              <div className="group h-full p-6 rounded-xl border border-gray-200 bg-white hover:border-[#5B4FE8]/40 hover:shadow-md hover:shadow-[#5B4FE8]/10 hover:-translate-y-0.5 transition-all duration-200">
+                <div className="w-9 h-9 bg-gray-100 group-hover:bg-[#5B4FE8]/20 rounded-lg flex items-center justify-center mb-4 transition-colors duration-200">
+                  <Icon size={16} className="text-gray-600 group-hover:text-[#7C6FF7] transition-colors duration-200" />
                 </div>
-                <h3 className="text-sm font-semibold text-white mb-1.5">{title}</h3>
+                <h3 className="text-sm font-semibold text-gray-900 mb-1.5">{title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{body}</p>
               </div>
             </FadeIn>

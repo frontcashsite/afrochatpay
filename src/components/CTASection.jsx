@@ -5,13 +5,13 @@ const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 export default function CTASection() {
   return (
-    <section className="py-16 lg:py-20 bg-[#0D0B1F] border-y border-white/[0.06]">
+    <section className="py-16 lg:py-20 bg-gray-50 border-y border-gray-100">
       <div className="container-xl">
         <FadeIn className="max-w-2xl">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white tracking-tight leading-tight mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight leading-tight mb-4">
             Ready to start earning in Uganda?
           </h2>
-          <p className="text-[17px] text-gray-400 leading-relaxed mb-8">
+          <p className="text-[17px] text-gray-600 leading-relaxed mb-8">
             Join 50,000 earners already using AfroChatPay. Registration takes under two minutes and your first task is waiting. Payouts straight to MTN or Airtel Money.
           </p>
           <div className="flex flex-wrap items-center gap-4">
@@ -27,7 +27,7 @@ export default function CTASection() {
               href={CTA}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[14px] font-semibold text-gray-400 hover:text-white transition-colors min-h-[44px] flex items-center"
+              className="text-[14px] font-semibold text-gray-600 hover:text-gray-900 transition-colors min-h-[44px] flex items-center"
             >
               Already have an account? Log in →
             </a>

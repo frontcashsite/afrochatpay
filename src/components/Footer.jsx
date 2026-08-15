@@ -29,7 +29,7 @@ const cols = {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#08080E] border-t border-white/[0.08] pt-14 pb-10">
+    <footer className="bg-white border-t border-gray-200 pt-14 pb-10">
       <div className="container-xl">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-14">
           {/* Brand */}
@@ -38,7 +38,7 @@ export default function Footer() {
               <div className="w-6 h-6 bg-[#5B4FE8] rounded-md flex items-center justify-center">
                 <span className="text-white text-[8px] font-bold">ACP</span>
               </div>
-              <span className="text-[14px] font-semibold text-white tracking-tight">
+              <span className="text-[14px] font-semibold text-gray-900 tracking-tight">
                 Afro<span className="text-[#7C6FF7]">ChatPay</span>
               </span>
             </div>
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {Object.entries(cols).map(([heading, links]) => (
             <div key={heading}>
-              <p className="text-[10px] font-bold text-gray-300 uppercase tracking-widest mb-4">{heading}</p>
+              <p className="text-[10px] font-bold text-gray-700 uppercase tracking-widest mb-4">{heading}</p>
               <ul className="space-y-3">
                 {links.map(({ label, href }) => {
                   const external = href.startsWith('http')
@@ -59,7 +59,7 @@ export default function Footer() {
                         href={href}
                         target={external ? '_blank' : undefined}
                         rel={external ? 'noopener noreferrer' : undefined}
-                        className="text-[13px] text-gray-500 hover:text-white transition-colors"
+                        className="text-[13px] text-gray-500 hover:text-gray-900 transition-colors"
                       >
                         {label}
                       </a>
@@ -71,7 +71,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-white/[0.06] pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <div className="border-t border-gray-100 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-[12px] text-gray-600">© {new Date().getFullYear()} AfroChatPay. All rights reserved.</p>
           <a
             href="https://wa.me/256726956773"

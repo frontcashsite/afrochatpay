@@ -26,7 +26,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-16 lg:py-24 bg-[#0D0D1A]" id="testimonials">
+    <section className="py-16 lg:py-24 bg-gray-50" id="testimonials">
       <div className="container-xl">
         <FadeIn className="mb-10">
           <span className="section-label">Earner stories</span>
@@ -36,16 +36,16 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {testimonials.map(({ quote, name, role, img, earned }, i) => (
             <FadeIn key={name} delay={i * 100}>
-              <div className="h-full bg-[#111126] rounded-xl border border-white/[0.08] p-6 flex flex-col hover:border-[#5B4FE8]/30 hover:-translate-y-0.5 transition-all duration-200">
+              <div className="h-full bg-white rounded-xl border border-gray-200 p-6 flex flex-col hover:border-[#5B4FE8]/30 hover:-translate-y-0.5 transition-all duration-200">
                 <div className="mb-5">
-                  <span className="inline-block bg-emerald-500/15 text-emerald-400 text-[11px] font-semibold px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span className="inline-block bg-emerald-500/15 text-emerald-600 text-[11px] font-semibold px-2.5 py-1 rounded-full border border-emerald-500/20">
                     {earned}
                   </span>
                 </div>
-                <blockquote className="text-[14px] text-gray-400 leading-relaxed flex-1 mb-6">
+                <blockquote className="text-[14px] text-gray-600 leading-relaxed flex-1 mb-6">
                   "{quote}"
                 </blockquote>
-                <div className="flex items-center gap-3 pt-4 border-t border-white/[0.08]">
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-200">
                   <img
                     src={img}
                     alt={name}
@@ -53,10 +53,10 @@ export default function Testimonials() {
                     decoding="async"
                     width="36"
                     height="36"
-                    className="w-9 h-9 rounded-full object-cover flex-shrink-0 border-2 border-white/10"
+                    className="w-9 h-9 rounded-full object-cover flex-shrink-0 border-2 border-gray-200"
                   />
                   <div>
-                    <p className="text-[13px] font-semibold text-white leading-none mb-0.5">{name}</p>
+                    <p className="text-[13px] font-semibold text-gray-900 leading-none mb-0.5">{name}</p>
                     <p className="text-[11px] text-gray-500">{role}</p>
                   </div>
                 </div>

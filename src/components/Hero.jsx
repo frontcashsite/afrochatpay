@@ -4,13 +4,13 @@ const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
 
 const recentActivity = [
   { Icon: MessageSquare, label: 'Chat session completed', sub: '2 minutes ago',  amount: '+UGX 20,000', bg: 'bg-[#5B4FE8]/20',   color: 'text-[#7C6FF7]' },
-  { Icon: Play,          label: 'Video review submitted', sub: '20 minutes ago', amount: '+UGX 2,000',  bg: 'bg-red-500/15',     color: 'text-red-400' },
-  { Icon: CheckSquare,   label: 'Survey completed',       sub: '1 hour ago',     amount: '+UGX 8,000',  bg: 'bg-emerald-500/15', color: 'text-emerald-400' },
+  { Icon: Play,          label: 'Video review submitted', sub: '20 minutes ago', amount: '+UGX 2,000',  bg: 'bg-red-500/15',     color: 'text-red-600' },
+  { Icon: CheckSquare,   label: 'Survey completed',       sub: '1 hour ago',     amount: '+UGX 8,000',  bg: 'bg-emerald-500/15', color: 'text-emerald-600' },
 ]
 
 function DashboardCard() {
   return (
-    <div className="bg-[#111126] rounded-2xl border border-white/10 shadow-2xl shadow-black/60 p-5 w-full">
+    <div className="bg-white rounded-2xl border border-gray-200 shadow-2xl shadow-gray-300/50 p-5 w-full">
       <div className="flex items-center justify-between mb-5">
         <div className="flex items-center gap-2.5">
           <img
@@ -20,10 +20,10 @@ function DashboardCard() {
             decoding="async"
             width="36"
             height="36"
-            className="w-9 h-9 rounded-full object-cover flex-shrink-0 border-2 border-white/10"
+            className="w-9 h-9 rounded-full object-cover flex-shrink-0 border-2 border-gray-200"
           />
           <div>
-            <p className="text-[13px] font-semibold text-white leading-none mb-0.5">Sandra Nakato</p>
+            <p className="text-[13px] font-semibold text-gray-900 leading-none mb-0.5">Sandra Nakato</p>
             <p className="text-[11px] text-gray-500">Personal account</p>
           </div>
         </div>
@@ -33,12 +33,12 @@ function DashboardCard() {
         </div>
       </div>
 
-      <div className="bg-white/5 rounded-xl px-4 py-3.5 mb-4 border border-white/[0.08]">
+      <div className="bg-gray-100 rounded-xl px-4 py-3.5 mb-4 border border-gray-200">
         <p className="text-[11px] font-medium text-gray-500 uppercase tracking-wider mb-1">Available balance</p>
-        <span className="text-[24px] font-bold text-white tracking-tight leading-none block">UGX 423,000</span>
+        <span className="text-[24px] font-bold text-gray-900 tracking-tight leading-none block">UGX 423,000</span>
         <div className="flex items-center gap-1.5 mt-1.5">
-          <TrendingUp size={12} className="text-emerald-400" />
-          <span className="text-[11px] font-semibold text-emerald-400">UGX 34,500 earned this week</span>
+          <TrendingUp size={12} className="text-emerald-600" />
+          <span className="text-[11px] font-semibold text-emerald-600">UGX 34,500 earned this week</span>
         </div>
       </div>
 
@@ -46,15 +46,15 @@ function DashboardCard() {
         <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-widest mb-2.5">Recent earnings</p>
         <div className="space-y-0.5">
           {recentActivity.map(({ Icon, label, sub, amount, bg, color }) => (
-            <div key={label} className="flex items-center gap-3 py-2.5 border-b border-white/[0.08] last:border-0">
+            <div key={label} className="flex items-center gap-3 py-2.5 border-b border-gray-200 last:border-0">
               <div className={`w-7 h-7 ${bg} rounded-lg flex items-center justify-center flex-shrink-0`}>
                 <Icon size={13} className={color} />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-[12px] font-medium text-gray-200 leading-none mb-0.5">{label}</p>
+                <p className="text-[12px] font-medium text-gray-700 leading-none mb-0.5">{label}</p>
                 <p className="text-[11px] text-gray-500">{sub}</p>
               </div>
-              <span className="text-[12px] font-semibold text-emerald-400">{amount}</span>
+              <span className="text-[12px] font-semibold text-emerald-600">{amount}</span>
             </div>
           ))}
         </div>
@@ -80,24 +80,24 @@ const trustItems = [
 
 export default function Hero() {
   return (
-    <section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-[#08080E]" id="home">
+    <section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-white" id="home">
       <div className="container-xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
 
           {/* Left – text, plays on page load */}
           <div className="lg:col-span-6 xl:col-span-7 hero-fade">
-            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-gray-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
+            <div className="inline-flex items-center gap-2 bg-gray-100 border border-gray-200 text-gray-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 block flex-shrink-0" />
               Live in Uganda · Kenya · Tanzania
             </div>
 
-            <h1 className="text-4xl lg:text-[52px] font-bold text-white leading-[1.1] tracking-tight mb-5">
+            <h1 className="text-4xl lg:text-[52px] font-bold text-gray-900 leading-[1.1] tracking-tight mb-5">
               Get paid for every<br />
               task you complete<br />
               online.
             </h1>
 
-            <p className="text-[17px] text-gray-400 leading-relaxed mb-8 max-w-lg">
+            <p className="text-[17px] text-gray-600 leading-relaxed mb-8 max-w-lg">
               AfroChatPay connects you with verified online tasks — chat, watch videos, answer surveys — and pays directly to your MTN or Airtel Money wallet.
             </p>
 
@@ -105,7 +105,7 @@ export default function Hero() {
               <a href={CTA} target="_blank" rel="noopener noreferrer" className="btn-primary text-[15px] px-6">
                 Create free account <ArrowRight size={16} />
               </a>
-              <a href="#tasks" className="inline-flex items-center gap-1.5 text-[15px] font-semibold text-gray-400 hover:text-white transition-colors py-3 min-h-[44px]">
+              <a href="#tasks" className="inline-flex items-center gap-1.5 text-[15px] font-semibold text-gray-600 hover:text-gray-900 transition-colors py-3 min-h-[44px]">
                 See all tasks <ArrowRight size={14} />
               </a>
             </div>
