@@ -74,7 +74,7 @@ export default function Footer() {
         <div className="border-t border-gray-100 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-[12px] text-gray-600">© {new Date().getFullYear()} AfroChatPay. All rights reserved.</p>
           <a
-            href="https://wa.me/256726956773"
+            href="https://wa.me/256727554301"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[12px] text-green-500 hover:text-green-400 font-medium transition-colors"
