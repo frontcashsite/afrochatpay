@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
-const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
+const CTA = 'https://lipahub.com/register.php?ref=Workfromhome'
 
 const links = [
   { label: 'How It Works', href: '#how-it-works' },

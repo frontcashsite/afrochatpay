@@ -1,4 +1,4 @@
-const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
+const CTA = 'https://lipahub.com/register.php?ref=Workfromhome'
 
 const cols = {
   Product: [
