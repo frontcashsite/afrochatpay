@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 
-const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
+const CTA = 'https://lipahub.com/register.php?ref=Workfromhome'
 
 const faqs = [
   {
