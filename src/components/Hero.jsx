@@ -1,6 +1,6 @@
 import { ArrowRight, Shield, Zap, Users, MessageSquare, Play, CheckSquare, TrendingUp } from 'lucide-react'
 
-const CTA = 'https://mulaearn.com/register.php?ref=Workfromhome'
+const CTA = 'https://lipahub.com/register.php?ref=Workfromhome'
 
 const recentActivity = [
   { Icon: MessageSquare, label: 'Chat session completed', sub: '2 minutes ago',  amount: '+UGX 20,000', bg: 'bg-[#5B4FE8]/20',   color: 'text-[#7C6FF7]' },
